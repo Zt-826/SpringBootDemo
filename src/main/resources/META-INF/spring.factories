@@ -1,0 +1,11 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.springbootdemo.spi.MyAutoConfiguration
+
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.example.springbootdemo.initializer.MyInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.example.springbootdemo.listener.MyApplicationListener
